@@ -1,4 +1,4 @@
-# : Learning React from 0 :
+# Learning React from 0
 Learning React from 0 is a collection of several practice projects created during the React course. The repository serves as a hub for various small-scale projects, each focusing on different aspects of web development using React.
 
 
