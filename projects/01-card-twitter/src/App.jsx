@@ -1,16 +1,20 @@
+import './App.css'
+import { TwitterFollowCard } from './assets/TwitterFollowCard'
 export function App() {
     return (
-    <article>
-        <header>
-            <img src="https://unavatar.io/duckduckgo/gummibeer.dev" alt="avatar of bear" />
-            <div>
-                <strong>Name Bear</strong>
-                <span>@bear</span>
-            </div>
-        </header>
-        <aside>
-            <button>Follow</button>
-        </aside>
-    </article>
+        <section className='App'>
+            <TwitterFollowCard isFollowing userName="Marvel">
+                Marvel
+            </TwitterFollowCard>
+            <TwitterFollowCard isFollowing={false} userName="nasa">
+                NASA
+            </TwitterFollowCard>
+            <TwitterFollowCard isFollowing userName="Google">
+                Google
+            </TwitterFollowCard>
+            <TwitterFollowCard isFollowing userName="Microsoft">
+                Microsoft
+            </TwitterFollowCard>
+        </section>
     )
 }
